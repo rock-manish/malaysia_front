@@ -1,0 +1,92 @@
+.bg-col{
+    background-image: linear-gradient(to right, #3DB76D, #2F8BC8);
+}
+
+.ex-margin{
+    margin-left: -55px;
+}
+
+/* .col-lg-ex{
+    width: 400px;
+    margin-left: -8px;
+}
+
+.div-width{
+    width: 70px !important;
+}
+
+.border-css{
+    border: 2px dotted yellow;
+    display: inline;
+}
+
+.con-width{
+    width: 20px;
+}
+
+.col-3>i{
+    width: 20px;
+} */
+
+/* ---------CSS--------- */
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* .logo{
+    float: left;
+} */
+.logo h2{
+    color: rgb(19, 11, 11);
+}
+
+.menu-button{
+    background-color: transparent;
+    color: rgb(161, 15, 15);
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid rgb(129, 102, 102);
+}
+
+.right-menu{
+    /* position: relative; */
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-menu{
+    display: none;
+    /* position: absolute; */
+    /* background-color: #8b8a8a; */
+    min-width: 158px;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover{
+background-color: #000;
+color: rgb(238, 18, 18);
+
+}
+.right-menu:hover .dropdown-menu{
+    display: block;
+}
+
+.right-menu:hover .menu-button{
+    background-color: transparent;
+}
+
+.boddy{
+    background-color: tomato;
+}
+
+/* ---------CSS--------- */

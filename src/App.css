@@ -1,0 +1,1266 @@
+/* ..............apply the css of aboutus pages............... */
+.yyyy {
+
+  background-color: #021229;
+  margin-top: -50px;
+  /* height: 200vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.y-axis {
+  background-color: #021229;
+
+  /* height: 200vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.cars {
+  width: 700px;
+  height: 350px;
+
+  margin-top: 70px;
+  background: rgb(134, 227, 159);
+  box-shadow: 15px 15px 10px rgba(100, 94, 100, 0.7);
+  border-radius: 10px;
+  z-index: 1;
+ position: absolute;
+
+}
+.cars-A{
+  width:100%;
+  height:350px;
+}
+.cars-A h4{
+  font-size:20px !important;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+.cars-A p{
+  width:650px;
+  height:220px;
+  
+  padding-left: 25px;
+}
+.aboutus{
+  position: relative;
+  margin-top: 70px;
+}
+.response{
+  margin-left: 50px;
+}
+
+
+
+.step4 img {
+  width: 100%;
+  height: 600px;
+
+}
+
+.column {
+  width: 300px;
+  height: 350px;
+  /* border:1px solid white; */
+  background: rgb(170, 50, 236);
+  box-shadow: 10px 10px 10px rgb(170, 144, 236);
+  margin-top: 20px;
+  margin-left: -250px;
+}
+
+.column1 {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 25px;
+
+}
+
+.top-bottom {
+  margin-top: 300px;
+}
+
+.btn1 {
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+
+.incre img {
+  margin-top: 50px;
+}
+
+.decre {
+  margin-left: -200px;
+  margin-top: 100px;
+  color: white;
+  font-size: 35px;
+
+}
+
+
+/* Media Query of About us  */
+
+@media only screen and (max-width: 1030px) {
+  .cars{
+    width:500px;
+    height:400px;
+
+  }
+  .cars-A{
+    height:370px;
+
+  }
+  .cars-A h4{
+    width:450px;
+
+  }
+  .cars-A p{
+    width: 450px;
+  
+
+  }
+  .aboutus{
+    width:500px;
+    height: 300px;
+    margin-top: 150px;
+  }
+  .tubelight{
+    margin-top: 55px;
+
+  }
+  .response{
+    width: 687px;
+  }
+  .decre{
+    margin-left: -45px !important;
+    font-size: 25px !important;
+  }
+  .tube{
+    margin-left: -91px !important;
+
+  }
+  .client{
+    font-size: 21px !important;
+    margin-top: 285px !important;
+  }
+  .foott{
+    width: 937px !important;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .cars{
+     width:400px;
+     height: 400px;
+
+  }
+  .cars-A h4{
+    width:380px;
+  }
+ 
+  .cars-A p{
+    
+    width:380px;
+  font-size: 16px !important;
+
+  }
+  .aboutus{
+    width:377px;
+    height:300px;
+  }
+  
+  .response{
+    display:none;
+    
+  }
+  .incre img{
+    width:300px;
+  }
+  .tube{
+    margin-left: -45px !important;
+    height: 330px !important;
+
+  }
+  .client{
+    display:none;
+  }
+  .decre{
+    
+    width: 233px;
+  }
+  .wvh{
+    margin-left: -195px;
+    margin-top: 182px !important;
+  }
+  .xxlg{
+    margin-top: 53px !important;
+  }
+  
+.top-A img{
+    width:700px !important;
+  }
+  .footer-img-bg img{
+    display:none;
+    margin-top: 400px;
+  }
+  .BMW{
+    margin-top:350px !important;
+    padding-top: 30px !important;
+  }
+  .heading{
+    width: 332px;
+    color: yellow !important;
+  }
+}
+@media only screen and (max-width: 430px){
+  .top-A img{
+    width:350px !important;
+  }
+  .bottle{
+   width:300px !important;
+   height:400px !important;
+ 
+  }
+  .bottle h4{
+    width:300px !important;
+    text-align: justify;
+    font-size: 18px !important;
+  }
+  .cars{
+    width:330px !important;
+    height: 430px !important;
+   }
+  .fw-normal{
+    padding-left: 25px;
+    text-align: justify;
+
+  }
+  .incre img{
+    width:340px;
+    
+  }
+  /* .tube{
+    margin-top: 450px !important;
+    margin-left: -170px !important;
+  } */
+  .lovguru{
+    margin-top: 550px !important;
+    margin-left: -120px !important;
+  }
+  .lovguru h1{
+    margin-top: 20px !important;
+
+  }
+  .wvh{
+    
+    margin-top: 699px !important;
+    margin-left: -102px !important;
+  }
+  .aboutus{
+    width:330px !important;
+    height:300px;
+  }
+  /* cars-A h4{
+    width:300px !important;
+    text-align: justify;
+    font-size: 12px !important;
+
+  } */
+  .cars-A p{
+    width: 300px !important;
+    text-align: justify;
+  }
+} 
+@media only screen and (max-width: 325px){
+  .top-A img{
+    width:261px !important;
+  }
+  .cars{
+    width:273px !important;
+    height:500px !important;
+  }
+  .cars h4{
+    font-size: 15px !important;
+    width:250px !important;
+    height:150px;
+  }
+  .cars p{
+    width:250px !important;
+    height: 200px !important;
+  }
+  .aboutus{
+   
+    margin-top: 182px !important;
+    margin-left: -34px !important;
+  }
+  .incre img{
+    width:250px !important;
+    position: relative;
+  }
+  .heading{
+    width:250px !important;
+    font-size: 30px;
+  }
+  .fw-normal{
+    padding-left: 46px !important;
+  }
+  .wvh{
+    margin-left: -90px !important;
+    position: relative;
+  }
+} 
+
+@media only screen and (max-width: 325px){
+  .wvh{
+    margin-left: -100px !important;
+    
+  }
+}
+
+
+
+
+/* ...............aboutus section end................  */
+
+/* FAQ */
+.set{
+  margin-top: 0px !important;
+}
+.ABC{
+  margin-bottom: 0px !important;
+}
+/* FAQ */
+
+*,
+div {
+  /* padding: 0; */
+  /* margin: 0; */
+  font-family: "Racing Sans One", cursive;
+}
+
+.first-div-icon {
+  border: 1px solid #173671;
+  background-color: #223f7e;
+  border-radius: 5px;
+  border-width: 7px;
+  padding: 1px;
+}
+
+.nav-color {
+  background-color: #233b78;
+}
+
+.icon-size {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.query-1 {
+  display: flex;
+}
+
+.body-back {
+  background-image: linear-gradient(0deg, #021229, #fbcd37, #157347, #101b3c);
+  /* margin: -60px; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.f-weight {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.car-img {
+  width: 550px;
+    height: 500px;
+}
+
+/* LET'S TALK ABOUT h1 */
+
+.font-siz {
+  font-size: 60px;
+}
+
+.bg-col-secure {
+  background-color: #1b2a57;
+  /* below i from .card-body bootstrap */
+  flex: 1 1 auto;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s;
+}
+
+.bg-col-secure:hover {
+  background-color: #1b2a57;
+  color: #00af73;
+}
+
+.card {
+  width: 500px;
+}
+
+.card-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* JOINING AMOUNT */
+
+.circle-ja {
+  background-color: #1f4082;
+  width: 190px;
+  height: 190px;
+  border: 10px solid #0b285a;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.circle-h {
+  font-size: 23px;
+  margin: 10px;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle-h > hr {
+  margin: 0px;
+  padding: 0;
+}
+
+/*-------- 20----- */
+
+.num {
+  font-size: 45px;
+}
+
+/*-----------INVESTMENT Plan--------------*/
+.invest-h {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+
+.invest-h > span {
+  font-weight: bold;
+}
+
+.body-back2 {
+  background-color: #021229;
+}
+
+.cards-col {
+  background-color: #1c448a;
+}
+
+.cards-col-img {
+  width: 90px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.2s; /* Animation */
+}
+
+.cards-col-img:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.cards-h4-h1 {
+  color: white;
+}
+
+.card-title > hr {
+  color: white;
+  height: 3px;
+}
+
+.fifth-div-img {
+  background-image: url("../public/bg-about.jpg");
+}
+
+/* .fifth-div-h1 {
+} */
+
+.fifth-img {
+  width: 138px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute; */
+  /* top: 50%;
+    left: 50%; */
+  /* width: 120px;
+    height: 120px; */
+  /* margin:-60px 0 0 -60px; */
+  transition: transform 0.7s ease-in-out;
+}
+
+.fifth-img:hover {
+  transform: rotate(360deg);
+}
+
+.fifth-card {
+  color: white;
+  width: 250px;
+  /* box-shadow: 5px 10px #1A377C; */
+  box-shadow: 5px 10px #1a377c;
+  background-color: #1a377c;
+}
+
+.fifth-card:hover,
+.fifth-card > p :hover {
+  color: black;
+  background-color: white;
+  box-shadow: 5px 10px 10px violet;
+  transition: 0.7s;
+}
+
+.fifth-card-Acard {
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.card-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.tenth-div {
+  background-color: #011e4b;
+  background-image: url("../public/aff_pattern.png");
+}
+
+.p-col {
+  color: white;
+}
+
+.p-col > h6 > i {
+  color: #fede01;
+}
+
+.p-col > h6 > strong {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Button class  */
+.btn-my {
+  width: 162px;
+  font-size: 14px;
+}
+
+/*------------ POPUP CSS  --------------*/
+
+/*------------ GET IN TOUCH CSS  --------------*/
+
+.get-back {
+  background-image: url("/public/bg.jpg");
+}
+
+.get-back > h1 {
+  color: white;
+}
+
+.bg-col-form {
+  background-color: #1c458c;
+}
+
+.txt-light {
+  font-family: "Montserrat", sans-serif;
+}
+
+label {
+  color: #021331;
+}
+
+/* ------------Tabs------------------- */
+
+/* ---------------WHAT PATREON M...-------------------- */
+
+.card-wp {
+  width: 700px;
+  height: 420px;
+
+  margin-top: 70px;
+  /* background: rgb(134, 227, 159); */
+  box-shadow: 15px 15px 10px rgba(100, 94, 100, 0.7);
+  border-radius: 10px;
+  position: absolute;
+}
+
+.font-siz {
+  font-size: 55px;
+}
+
+.linear-grad {
+  background-image: linear-gradient(to right, #3db76c, #2f8ac9);
+}
+
+.font-fam {
+  font-family: "sans-serif";
+  text-align: justify;
+}
+
+.cars1{
+  width: 600px;
+  height: 450px;
+  margin-left: 50px;
+}
+
+/* usimg the footer section here */
+.xyz{
+  background-color: #021229;
+}
+.footer-img-bg img {
+  width: 100%;
+  height: 450px;
+}
+.section-B {
+  margin-top: -350px;
+}
+.section-C {
+  margin-top: 50px;
+}
+
+/* 
+.section{
+  background-image: url("/public/image5.png");
+} */
+
+.foot {
+  margin-top: -50px;
+}
+
+.top-A h5 {
+  margin-top: 60px;
+}
+
+/* ------------FAQ------------- */
+
+.accordion-item {
+  background: rgb(50 70 150);
+  color: white;
+}
+
+.accordion-button {
+  color: black;
+  font-weight: bold;
+  background: rgba(46, 79, 136, 0.7);
+}
+
+.faq-back {
+  /* margin: -50px; */
+  background-color: #021229;
+}
+
+/* -------------lOGIN--------------- */
+
+.login-A {
+  width: 450px;
+  height: 520px;
+  background: rgb(20 40 50);
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px yellow;
+}
+
+.login-A img {
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.login-A h4 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.login-B {
+  width: 400px;
+  height: 450px;
+  margin-left: 30px;
+}
+
+.login-B input {
+  margin-top: 30px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.Remo {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+.login-B p {
+  color: white;
+  margin-left: 30px;
+  margin-top: -25px;
+}
+
+.login-B h6 {
+  color: white;
+  /* text-align: right;
+  margin-top: -35px; */
+}
+
+.login-B h5 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.login-B button {
+  width: 150px;
+  color: black;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.button-submit {
+  width: 400px !important;
+  color: black;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.btn-back-to-login {
+  color: black !important;
+}
+
+.login-C input {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+/* ---------------REGISTER-------------- */
+
+.card-A {
+  width: 500px;
+  height: 970px;
+  border: 2px solid green;
+  background: rgb(56, 13, 165);
+  border-radius: 20px;
+  box-shadow: 10px 10px 4px yellow;
+  margin-top: 70px;
+}
+
+.card-A img {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.card-B {
+  width: 450px;
+  height: 680px;
+
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.card-B input {
+  width: 430px;
+  height: 50px;
+  background: white;
+  /* border-radius: 20px; */
+  position: relative;
+}
+
+.desk {
+  position: absolute;
+  margin-left: -50px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.pyra {
+  width: 450px;
+  height: 50px;
+  background: white;
+  border-radius: 20px;
+}
+
+.check input {
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.size {
+  width: 430px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* border-radius: 50px; */
+}
+
+.check button {
+  width: 450px;
+  margin-left: 30px;
+  margin-top: -20px;
+  border-radius: 20px;
+}
+
+.check p {
+  color: white;
+  margin-left: 60px;
+  margin-top: -25px;
+}
+
+/* Link{
+  text-decoration: none;
+  color: white;
+} */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0d6efd;
+}
+
+/* ---------GREENBAR EV SSL SECURITY--------- */
+
+.card-width {
+  width: 390px;
+}
+
+.card-border {
+  border: none;
+  border-radius: 10px;
+}
+
+/* ----------HOME  Responsive css ------------*/
+
+@media only screen and (max-width: 770px) {
+  .Logo {
+    width: 380px !important;
+    height: 191px !important;
+    margin-left: -26px;
+  }
+  
+  .row {
+    flex-direction: column;
+  }
+  .first-d-i{
+    width: 106px !important;
+    margin-left: -32px !important;
+  }
+  .car-img{
+    width: 372px !important;
+  }
+  .from-top{
+padding-right: 20px;
+  }
+  .magi{
+    margin-top: 91px !important;
+  }
+  .invest-h{
+    margin-left: 34px;
+  }
+  .cafe{
+    margin-left: -27px !important;
+    margin-right: 3px !important;
+  }
+  .h5size{
+    font-size: 13px !important;
+  }
+} 
+
+@media only screen and (max-width: 1030px) {
+  .Logo-resize {
+    
+    width: 341px;
+    align-items: center;
+  }
+  .car-img {
+    width: 403px;
+  }
+  .level-width {
+    padding-left: 68px;
+  }
+  .level-width h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .aff-img img{
+    width:350px;
+
+  }
+  .wdth{
+    width:244px !important;
+    margin: auto;
+  }
+  .cycle{
+    display:block;
+  }
+  .circle-ja{
+    margin-left:17px;
+    width:230px;
+    height:230px;
+  }
+  .hiinv{
+    font-size: 31px !important;
+  }
+  .eco{
+    width:270px;
+    margin: auto;
+  }
+  .lbw{
+    display: block;
+    margin: auto;
+  }
+  .kagaz {
+    width:286px !important;
+    font-size: 25px !important;
+  }
+  .kagaz h3{
+    width:274px !important;
+    font-size: 20px;
+  }
+  .bloock{
+    display: block;
+  }
+  .Logo-resize{
+    width: 248px !important;
+    height: 117px !important;
+    margin: auto !important;
+  }
+  .tooop{
+    flex-direction: column;
+    margin-left: 75px !important;
+    width: 200px !important;
+    
+  }
+  .bananaa{
+    width: 265px !important;
+  }
+  .autox{
+    width: 230px !important;
+    height: 384px;
+  }
+  .text-light h3 {
+    font-size: 18px;
+    width: 170px;
+}
+.top-bottom{
+  margin-top: 177px !important;
+  margin-left: -13px !important;
+}
+}
+
+@media only screen and (max-width: 325px){
+
+  .aff-img img {
+    width: 268px;
+}
+.text-light h3{
+  font-size: 20px;
+    width: 170px;
+}
+.text-light h6{
+  font-size: 17px;
+    width: 170px;
+}
+.tooop{
+  width: 164px !important;
+    margin-left: 38px !important;
+}
+.foldd{
+  width: 210px;
+}
+}
+
+@media only screen and (max-width: 325px){
+
+  .seeco {
+    margin-left: -76px !important;
+}
+}
+
+@media only screen and (max-width: 380px){
+
+.wvh{
+  margin-left: -89px !important;
+}
+.card-A img {
+  margin-left: 46px;
+  margin-top: 20px;
+}
+
+}
+
+
+
+/* Registration Media q start */
+
+
+@media only screen and (min-width: 770px){ 
+
+.card-A{
+  margin-left: -81px;
+}
+.h3size{
+  font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 430px){
+
+.card-A{
+  margin-left: -103px;
+  width: 350px !important;
+}
+
+.card-B input{
+      
+    width: 300px !important;
+}
+
+.slips{
+  width: 302px !important;
+}
+.daku{
+  width: 302px !important;
+}
+
+.card-B{
+  width: 302px !important;
+}
+.sudu{
+  padding-left: 12px;
+
+}
+
+}
+
+@media only screen and (max-width: 325px){
+
+.card-A{
+  width: 294px !important;
+  margin-left: -89px;
+}
+.card-A img {
+  margin-left: 9px;
+  margin-top: 4px;
+}
+.card-B input {
+ width: 240px !important;
+}
+.card-B {
+  width: 279px !important;
+}
+.slips{
+  width: 240px !important;
+
+}
+.daku{
+  width: 240px !important;
+
+}
+.sudu{
+  padding-left: 40px;
+  font-size: 13px !important;
+
+}
+.cls p{
+  display:none;
+}
+.daku{
+  margin-top: 20px !important;
+}
+
+}
+
+/* Registration Media q  finish*/
+
+
+/* Login page media Q Start */
+@media only screen and (max-width: 330px){
+  .login-A{
+    margin-left: -112px !important;
+  }
+ 
+}
+
+@media only screen and (max-width: 430px){
+  .login-A{
+    width: 310px !important;
+  }
+  .login-C input{
+    width: 235px !important;
+  }
+  .bump{
+    width: 235px !important;
+
+  }
+  .anchorr {
+    display: flex;
+    flex-direction: column;
+    line-break: normal;
+  }
+  .anchorr a{
+    flex-direction: column;
+  }
+  .login-C input{
+    width:235px !important;
+  }
+  .login-C{
+    width:250px !important;
+  }
+  .login-B{
+    width:250px !important;
+  }
+  .login-A img{
+    width: 147px !important;
+  }
+}
+@media only screen and (max-width: 325px){
+  .login-A h4{
+    font-size: 20px !important;
+  }
+  .login-C input{
+    width:232px !important;
+  }
+ 
+  
+}
+
+
+@media only screen and (max-width: 380px){
+  .login-A {
+    width: 274px !important;
+    margin-left: -111px !important;
+    height: 550px;
+    
+}
+.ref-inc{
+  overflow: scroll;
+}
+
+
+}
+
+@media only screen and (max-width: 780px){
+  .login-A {
+    
+    margin-left: -104px !important;
+}
+.login-B h5{
+  
+  text-align: center;
+}
+.ref-inc{
+  overflow: scroll;
+}
+
+}
+@media only screen and (max-width: 1440px){
+  .faq-back {
+    margin: -1px !important;
+}
+}
+@media only screen and (max-width: 2560px){
+  .faq-back {
+    margin: -2px !important;
+}
+}
+
+
+
+
+/* Login page media Q End */
+
+
+
+/* Get in Touch MEDIA QUERy  */
+
+@media only screen and (max-width: 770px) {
+  .border-need {
+    width: 600px;
+    margin: auto;
+  }
+  .ref-inc{
+    overflow: scroll;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .row-dir {
+    flex-direction: column; 
+  }
+  .responsive1 {
+    width: 666px !important;
+}
+}
+
+@media only screen and (max-width: 992px) {
+  .level {
+    display: block;
+    /* border: 2px solid red; */
+  }
+  .level-width {
+    width: 725px;
+    font-size: 20px !important;
+  }
+  .foott {
+    width: 710px !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+  .media-quer {
+    width: 470px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .foott {
+    width: 937px !important;
+  }
+}
+
+@media only screen and (max-width: 1455px) {
+  .res {
+    width: 887px !important;
+  }
+}
+
+
+
+ 
+
+/* .level{
+    border: 2px solid red;
+  } */
+ 
+  /* ................using a media query aboutus................   */
+
+
+
+  
